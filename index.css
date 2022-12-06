@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.main-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 70px;
+
+  color: #e2505b;
+}
+
+h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #e2505b;
+  font-family: futra;
+}
+.main-img {
+  height: 100vh;
+  width: 40%;
+
+  /* background-image: url(./libarary.jpg); */
+  background-image: url(photos/pic1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 80px;
+}
+.btns {
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-1 {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  width: 400px;
+
+  background-color: #e2505b;
+
+  height: 50px;
+
+  border: none;
+  border-radius: 20px;
+}
+.btn-1:hover {
+  color: white;
+  border: 1px solid lightgray;
+  background-color: #af3a42;
+}
+
+@font-face {
+  font-family: futra;
+  src: url(./fonts/Futura\ Condensed\ Medium.otf);
+}
+
+@font-face {
+  font-family: lem;
+  src: url(./fonts/LEMONMILK-Medium.otf);
+}
